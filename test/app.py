@@ -36,7 +36,7 @@ def fetch_text(url):
     except requests.exceptions.RequestException as e:
         st.error(f"请求失败: {e}")
         return None
-# aasss
+
 # 确保在URL有效时获取文本
 if url:
     text = fetch_text(url)
